@@ -37,16 +37,16 @@
 
 IF EXISTS (SELECT name FROM sys.databases WHERE name = N'SOLNORTE_SOCIOS')
 BEGIN
-    DROP DATABASE SOLNORTE_SOCIOS;
+    DROP DATABASE Com2900G07;
 END
 GO
 
 -- Creamos la base
-CREATE DATABASE SOLNORTE_SOCIOS;
+CREATE DATABASE Com2900G07;
 GO
 
 -- Usamos la base
-USE SOLNORTE_SOCIOS;
+USE Com2900G07;
 GO
 
 -- Tabla TipoSocio: Define las categorías de socios (ej. adulto, menor, etc.).
